@@ -30,10 +30,11 @@ body {
   margin: 15px 0;
   border-top: 3px solid;
   border-radius: 8px;
-  height: 250px;
+  min-height: 285px;
   box-shadow:5px solid grey;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  text-align: left;
 }
 
 .supervisor {
