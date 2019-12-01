@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-wrapper {
-  padding: 60px;
+  padding: 10px;
   text-align: center;
   background-color: #fafafa;
 }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  padding: 30px;
+  padding: 10px;
   -webkit-flex: row wrap;
   -ms-flex: row wrap;
   flex-flow: column wrap;
@@ -82,7 +82,12 @@ h1, h2, h3, h4, h5, h6 {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media only screen and (min-width: 1440px) {
+  .page-wrapper {
+    padding: 60px;
+  }
+
   .feature-wrapper {
+    padding: 30px;
     flex-flow: row wrap;
   }
   .feature {
